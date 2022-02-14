@@ -28,13 +28,12 @@ section{
     border-radius: 25pt;
     background-color: #421F95;
     border: none;
-    height: 30px;
+    padding: 0.4rem;
     font-size: smaller;
     font-weight: 600;
     color: white;
-    /* width: 145px; */
     width: 100%;
-    margin: 5px;
+    margin: 0.2rem;
 }
 
 .element-wrap-background-1{
@@ -90,8 +89,8 @@ section{
     justify-content: space-between;
 }
 .creo-field-wrap div{
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 0.5rem; */
+    margin-right: 0.5rem;
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 700;
@@ -104,11 +103,11 @@ section{
     font-size:1.2em;
 }
 .creo-field-wrap div img{
-    padding: 5px;
+    padding: 0.5rem;
 }
 .creo-field-wrap div h3{
-    padding-right: 5px;
-    padding-top: 5px;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
 }
 .row-wrap{
     margin: 0 !important;
@@ -132,8 +131,8 @@ section{
     background-color: white;
 }
 .btn-vesting-program i{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 .vesting-program-title-wrap{
@@ -145,8 +144,8 @@ section{
     border-top-left-radius: 10pt;
     border-top-right-radius: 10pt;
     justify-content: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .vesting-program-title-wrap div{
     margin-top: auto;
@@ -159,22 +158,21 @@ section{
     width: 30%;
 }
 .vesting-program-title-wrap div:nth-child(1) img{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     float: left;
     font-weight: 700;
     margin-top: auto;
     margin-bottom: auto;
 }
 .vesting-program-title-wrap div:nth-child(1) span{
-    /* margin-right: 5%; */
     font-weight: 700;
     margin-top: auto;
     font-size: large;
     margin-bottom: auto;
 }
 .vesting-program-title-wrap div:nth-child(2) span{
-    margin-right: 5%;
+    margin-right: 0.5rem;
     float: right;
     font-weight: 700;
     margin-top: auto;
@@ -217,7 +215,7 @@ section{
 }
 
 .item-list div span:nth-child(2){
-    font-size: 50%;
+    font-size:0.5rem;
     margin: auto;
     color: #989898;
 }
@@ -247,14 +245,14 @@ section{
     cursor: pointer;
 }
 .bg-token-container .wrap-all .token-title-wrap{
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .bg-token-container div .token-title-wrap h2{
-    margin-top: 3%;
+    margin-top: 1rem;
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 1rem
 }
 
 .wrap-all{
@@ -263,12 +261,12 @@ section{
 }
 
 .wrap-dropdown-container{
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .adjust-top{
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
 }
 
 .desc-field{
@@ -344,7 +342,7 @@ h4{
     grid-template-columns: repeat(2,1fr);
     justify-items: self-end;
     /* justify-content: space-between; */
-    margin: 2%;
+    margin: 1rem;
     /* font-size: larger; */
 }
 .btn-close-set-vesting{
@@ -359,7 +357,7 @@ h4{
     border-radius: 5px;
 }
 .set-vesting-title{
-    margin: 10px;
+    margin: 1rem;
     padding-top: 1rem;
     font-size: larger;
     font-weight: 700;
@@ -384,7 +382,7 @@ h4{
     border: none;
     border-radius: 3px;
     font-weight: 700;
-    margin: 4%;
+    margin: 1rem;
     font-size: large;
 }
 .btn-approv-set span{
@@ -392,7 +390,7 @@ h4{
 }
 input{
     border-radius: 5px;
-    height: 40px;
+    padding: 0.3rem;
 }
 label{
     margin-left: 0.865rem;
@@ -431,7 +429,8 @@ h4{
 }
 
 .custom-height{
-    height: 60px;
+    /* height: 60px; */
+    padding: 2rem;
 }
 
 .adjust-vesting-section{
